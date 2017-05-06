@@ -1,0 +1,7 @@
+data/
+*.pyc
+*.swp
+*.swn
+*.swo
+*.tmp
+.DS_Store

@@ -1,0 +1,67 @@
+REG
+pistons-hawks 10/27/15 (first game?)
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0021500001&RangeType=2&Season=2015-16&SeasonType=Regular+Season&StartPeriod=1&StartRange=0
+cavs-bulls 10/27/15
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0021500002&RangeType=2&Season=2015-16&SeasonType=Regular+Season&StartPeriod=1&StartRange=0
+pelicans-warriors 10/27/15
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0021500003&RangeType=2&Season=2015-16&SeasonType=Regular+Season&StartPeriod=1&StartRange=0
+nuggets-trailblazers 4/13/16 (last game?)
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0021501230&RangeType=2&Season=2015-16&SeasonType=Regular+Season&StartPeriod=1&StartRange=0
+PLAYOFFS
+pacers-raptors 4/16/16 (first game of playoffs?)
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500111&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+rockets-warriors 4/16/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500141&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+celtics-hawks 4/16/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500131&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+mavericks-thunder 4/16/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500161&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+pistons-cavs 4/17/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500101&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+hornets-heat 4/17/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500121&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+grizzlies-spurs 4/17/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500151&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+trailblazers-clippers 4/17/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500171&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+
+thunder-spurs 4/30/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500231&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+trailblazers-warriors 5/01/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500221&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+hawks-cavs 5/02/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500201&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+heat-raptors 5/03/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041500211&RangeType=2&Season=2015-16&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+
+
+REG
+knicks-cavs 10/25/16 (first game?)
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0021600001&RangeType=2&Season=2016-17&SeasonType=Regular+Season&StartPeriod=1&StartRange=0
+jazz-trailblazers 10/25/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0021600002&RangeType=2&Season=2016-17&SeasonType=Regular+Season&StartPeriod=1&StartRange=0
+spurs-warriors 10/25/16
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0021600003&RangeType=2&Season=2016-17&SeasonType=Regular+Season&StartPeriod=1&StartRange=0
+PLAYOFFS
+celtics-wizards 5/4/17
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041600203&RangeType=2&Season=2016-17&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+warriors-jazz 5/4/17
+http://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041600222&RangeType=2&Season=2016-17&SeasonType=Playoffs&StartPeriod=1&StartRange=0
+
+FORMAT:
+For regular season,
+GameID = 002{YR}0{NUM}
+where YR is the year the season STARTED in, e.g. 2015 => 15, 1998 => 98
+where NUM is the absolute game number in the range [1, 1230]
+
+For playoffs,
+GameID = 004{YR}0{RD}{SERIES}{GAME_NUM}
+where YR is the year the season STARTED in, e.g. 2015 => 15, 1998 => 98
+where RD is the round of the playoffs
+where SERIES is the series number in the range [0, 7]
+where GAME_NUM is the number of games played in the series
+
+NOTE:
+1230 games in a season
+MAX 105 games in the playoffs
+MIN 60 games in the playoffs
